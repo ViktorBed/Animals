@@ -27,7 +27,7 @@ export default function Header({ searchTerm, setSearchTerm, breeds, onSelectBree
     );
 
     return (
-        <header className="w-full py-4 bg-black text-gold border-b-4 border-gold mb-8 relative">
+        <div className="w-full py-4 bg-black text-gold border-b-4 border-gold mb-8 relative">
             <div className="container mx-auto flex justify-between items-center">
                 <h1 className="text-3xl font-bold ">Breed Explorer</h1>
                 <div className="relative">
@@ -53,6 +53,6 @@ export default function Header({ searchTerm, setSearchTerm, breeds, onSelectBree
                     )}
                 </div>
             </div>
-        </header>
+        </div>
     );
 }
