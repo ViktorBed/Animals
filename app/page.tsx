@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { fetchCatBreeds, fetchDogBreeds } from "@/utils/api";
 import { useState, useEffect } from 'react';
-import Header from '@/Components/Header';
+import Header from '@/components/Header';
 
 interface Breed {
     id: string;
